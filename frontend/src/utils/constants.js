@@ -1,4 +1,5 @@
-export const URL = "https://api.kpd.dumisel.nomoredomains.work";
+//export const URL = "https://api.kpd.dumisel.nomoredomains.work";
+export const URL = "http://localhost:4000";
 
 export const MINIMUM_PASSWORD_LENGTH = 3;
 export const MINIMUM_USERNAME_LENGTH = 3;
@@ -7,6 +8,7 @@ export const MAXIMUM_USERNAME_LENGTH = 64;
 export const EMAIL_REGULAR =
   /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/;
 export const URL_REGULAR =
+  // eslint-disable-next-line no-useless-escape
   /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
 
 export const getBase64 = (file) => {

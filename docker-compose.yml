@@ -1,4 +1,4 @@
-version: "3.3"
+version: '3.3'
 
 services:
   backend:
@@ -14,11 +14,11 @@ services:
     networks:
       - db-network
     ports:
-      - "4000:3000" 
+      - '4000:4000'
     restart: on-failure
   frontend:
     container_name: kpd-frontend
-    image: frontend:nginx
+    image: frontend:nginx1.23.1-alpine
     build:
       context: ./frontend
       dockerfile: Dockerfile
