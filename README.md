@@ -1,5 +1,5 @@
 # Докеризация приложения
 
-* IP: 51.250.6.184
-* Frontend: https://kpd.dumisel.nomoredomains.work
+* IP: 158.160.50.23
+* Frontend: http://kpd.dumisel.nomoredomains.work
 * Backend: https://api.kpd.dumisel.nomoredomains.work
